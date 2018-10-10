@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6911CE3C1F3BB8A5002B7D14 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911CE3B1F3BB8A5002B7D14 /* Reachability.swift */; };
 		6955FAF81F2958F900F2BF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955FAF71F2958F900F2BF21 /* AppDelegate.swift */; };
 		6955FAFD1F2958F900F2BF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6955FAFB1F2958F900F2BF21 /* Main.storyboard */; };
 		6955FAFF1F2958F900F2BF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6955FAFE1F2958F900F2BF21 /* Assets.xcassets */; };
 		6955FB021F2958F900F2BF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6955FB001F2958F900F2BF21 /* LaunchScreen.storyboard */; };
 		6955FB0A1F295B0100F2BF21 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955FB091F295B0100F2BF21 /* HomeViewController.swift */; };
+		695939601F3993D100DC6EEB /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959395F1F3993D100DC6EEB /* ContactUsViewController.swift */; };
+		695EB0A41F3A98ED009053B8 /* DLJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695EB0A31F3A98ED009053B8 /* DLJSON.swift */; };
+		695EB0A61F3B06D1009053B8 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695EB0A51F3B06D1009053B8 /* Tool.swift */; };
+		69797AC41F2EE78400EC013C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69797AC31F2EE78400EC013C /* AboutViewController.swift */; };
+		6980AACB1F4CDF2200FD407A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6980AACA1F4CDF2200FD407A /* CloudKit.framework */; };
+		6980AAD11F4D34E500FD407A /* PollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980AAD01F4D34E500FD407A /* PollModel.swift */; };
+		6980AAD31F4D396800FD407A /* CloudModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980AAD21F4D396800FD407A /* CloudModel.swift */; };
+		6980AAD51F4E114800FD407A /* PollTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980AAD41F4E114800FD407A /* PollTableViewController.swift */; };
+		6980AAD71F4E29DA00FD407A /* PollDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980AAD61F4E29DA00FD407A /* PollDetailViewController.swift */; };
+		698A4B501F2E93E9004ED725 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698A4B4F1F2E93E9004ED725 /* MoreTableViewController.swift */; };
+		69BC87701F3156C6002831B0 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BC876F1F3156C6002831B0 /* CoinModel.swift */; };
+		69BC87721F317477002831B0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BC87711F317477002831B0 /* DataModel.swift */; };
+		69CDCB911F37A39200D8A214 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDCB901F37A39200D8A214 /* SettingsTableViewController.swift */; };
 		9E05FDB456CB147ABDFF88B2 /* Pods_BitTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509BFF9FCEFB29E42A6B3B18 /* Pods_BitTicker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		509BFF9FCEFB29E42A6B3B18 /* Pods_BitTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6911CE3B1F3BB8A5002B7D14 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		6955FAF41F2958F900F2BF21 /* BitTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6955FAF71F2958F900F2BF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6955FAFC1F2958F900F2BF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +39,20 @@
 		6955FB011F2958F900F2BF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6955FB031F2958F900F2BF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6955FB091F295B0100F2BF21 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6959395F1F3993D100DC6EEB /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		695EB0A31F3A98ED009053B8 /* DLJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLJSON.swift; sourceTree = "<group>"; };
+		695EB0A51F3B06D1009053B8 /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		69797AC31F2EE78400EC013C /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		6980AAC91F4CDEFF00FD407A /* BitTicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BitTicker.entitlements; sourceTree = "<group>"; };
+		6980AACA1F4CDF2200FD407A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		6980AAD01F4D34E500FD407A /* PollModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollModel.swift; sourceTree = "<group>"; };
+		6980AAD21F4D396800FD407A /* CloudModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudModel.swift; sourceTree = "<group>"; };
+		6980AAD41F4E114800FD407A /* PollTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollTableViewController.swift; sourceTree = "<group>"; };
+		6980AAD61F4E29DA00FD407A /* PollDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollDetailViewController.swift; sourceTree = "<group>"; };
+		698A4B4F1F2E93E9004ED725 /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		69BC876F1F3156C6002831B0 /* CoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		69BC87711F317477002831B0 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		69CDCB901F37A39200D8A214 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		8E36ECF1EB122F24B2867F88 /* Pods-BitTicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitTicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitTicker/Pods-BitTicker.debug.xcconfig"; sourceTree = "<group>"; };
 		E3188E6901B71F06685CA670 /* Pods-BitTicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitTicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitTicker/Pods-BitTicker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E05FDB456CB147ABDFF88B2 /* Pods_BitTicker.framework in Frameworks */,
+				6980AACB1F4CDF2200FD407A /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,14 +91,100 @@
 		6955FAF61F2958F900F2BF21 /* BitTicker */ = {
 			isa = PBXGroup;
 			children = (
-				6955FAF71F2958F900F2BF21 /* AppDelegate.swift */,
-				6955FAFB1F2958F900F2BF21 /* Main.storyboard */,
-				6955FB091F295B0100F2BF21 /* HomeViewController.swift */,
-				6955FAFE1F2958F900F2BF21 /* Assets.xcassets */,
-				6955FB001F2958F900F2BF21 /* LaunchScreen.storyboard */,
-				6955FB031F2958F900F2BF21 /* Info.plist */,
+				69797ABF1F2EE72100EC013C /* Story */,
+				69797AC01F2EE72D00EC013C /* Home Tab */,
+				69797AC11F2EE74C00EC013C /* More Tab */,
+				69797AC21F2EE75A00EC013C /* Poll */,
+				69797ABE1F2EE70800EC013C /* Supporting files */,
+				69BC876E1F3153D4002831B0 /* Model */,
+				695EB0A71F3B06EB009053B8 /* Tools */,
 			);
 			path = BitTicker;
+			sourceTree = "<group>";
+		};
+		695EB0A71F3B06EB009053B8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				695EB0A51F3B06D1009053B8 /* Tool.swift */,
+				6911CE3B1F3BB8A5002B7D14 /* Reachability.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		69797ABE1F2EE70800EC013C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				6980AAC91F4CDEFF00FD407A /* BitTicker.entitlements */,
+				6955FAF71F2958F900F2BF21 /* AppDelegate.swift */,
+				6955FAFE1F2958F900F2BF21 /* Assets.xcassets */,
+				6955FB031F2958F900F2BF21 /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		69797ABF1F2EE72100EC013C /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				6955FAFB1F2958F900F2BF21 /* Main.storyboard */,
+				6955FB001F2958F900F2BF21 /* LaunchScreen.storyboard */,
+			);
+			name = Story;
+			sourceTree = "<group>";
+		};
+		69797AC01F2EE72D00EC013C /* Home Tab */ = {
+			isa = PBXGroup;
+			children = (
+				6955FB091F295B0100F2BF21 /* HomeViewController.swift */,
+			);
+			name = "Home Tab";
+			sourceTree = "<group>";
+		};
+		69797AC11F2EE74C00EC013C /* More Tab */ = {
+			isa = PBXGroup;
+			children = (
+				698A4B4F1F2E93E9004ED725 /* MoreTableViewController.swift */,
+				69CDCB901F37A39200D8A214 /* SettingsTableViewController.swift */,
+				69797AC31F2EE78400EC013C /* AboutViewController.swift */,
+				6959395F1F3993D100DC6EEB /* ContactUsViewController.swift */,
+			);
+			name = "More Tab";
+			sourceTree = "<group>";
+		};
+		69797AC21F2EE75A00EC013C /* Poll */ = {
+			isa = PBXGroup;
+			children = (
+				6980AAD41F4E114800FD407A /* PollTableViewController.swift */,
+				6980AAD61F4E29DA00FD407A /* PollDetailViewController.swift */,
+			);
+			name = Poll;
+			sourceTree = "<group>";
+		};
+		6980AACD1F4CE9A600FD407A /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				69BC876F1F3156C6002831B0 /* CoinModel.swift */,
+				69BC87711F317477002831B0 /* DataModel.swift */,
+				695EB0A31F3A98ED009053B8 /* DLJSON.swift */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		6980AACF1F4CE9E200FD407A /* iCloud */ = {
+			isa = PBXGroup;
+			children = (
+				6980AAD01F4D34E500FD407A /* PollModel.swift */,
+				6980AAD21F4D396800FD407A /* CloudModel.swift */,
+			);
+			name = iCloud;
+			sourceTree = "<group>";
+		};
+		69BC876E1F3153D4002831B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6980AACF1F4CE9E200FD407A /* iCloud */,
+				6980AACD1F4CE9A600FD407A /* JSON */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		92713FA8BD69EEF067B6D81E /* Pods */ = {
@@ -83,6 +199,7 @@
 		A14F5E5CDF2A2A9DA65CA612 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6980AACA1F4CDF2200FD407A /* CloudKit.framework */,
 				509BFF9FCEFB29E42A6B3B18 /* Pods_BitTicker.framework */,
 			);
 			name = Frameworks;
@@ -125,6 +242,14 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 27U7RCXG8Q;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -212,8 +337,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69797AC41F2EE78400EC013C /* AboutViewController.swift in Sources */,
+				695EB0A61F3B06D1009053B8 /* Tool.swift in Sources */,
 				6955FAF81F2958F900F2BF21 /* AppDelegate.swift in Sources */,
+				698A4B501F2E93E9004ED725 /* MoreTableViewController.swift in Sources */,
+				69BC87701F3156C6002831B0 /* CoinModel.swift in Sources */,
 				6955FB0A1F295B0100F2BF21 /* HomeViewController.swift in Sources */,
+				6980AAD11F4D34E500FD407A /* PollModel.swift in Sources */,
+				695EB0A41F3A98ED009053B8 /* DLJSON.swift in Sources */,
+				695939601F3993D100DC6EEB /* ContactUsViewController.swift in Sources */,
+				6980AAD71F4E29DA00FD407A /* PollDetailViewController.swift in Sources */,
+				69BC87721F317477002831B0 /* DataModel.swift in Sources */,
+				69CDCB911F37A39200D8A214 /* SettingsTableViewController.swift in Sources */,
+				6911CE3C1F3BB8A5002B7D14 /* Reachability.swift in Sources */,
+				6980AAD31F4D396800FD407A /* CloudModel.swift in Sources */,
+				6980AAD51F4E114800FD407A /* PollTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,10 +477,12 @@
 			baseConfigurationReference = 8E36ECF1EB122F24B2867F88 /* Pods-BitTicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitTicker/BitTicker.entitlements;
 				DEVELOPMENT_TEAM = 27U7RCXG8Q;
 				INFOPLIST_FILE = BitTicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Tonyman.BitTicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonyman.BitTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -353,10 +493,12 @@
 			baseConfigurationReference = E3188E6901B71F06685CA670 /* Pods-BitTicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitTicker/BitTicker.entitlements;
 				DEVELOPMENT_TEAM = 27U7RCXG8Q;
 				INFOPLIST_FILE = BitTicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Tonyman.BitTicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonyman.BitTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
